@@ -1,0 +1,14 @@
+{
+  "name": "agentic-system-guide",
+  "version": "1.0.0",
+  "description": "Simple multi-agent starter project with Claude API",
+  "main": "run-pipeline.js",
+  "scripts": {
+    "start": "node run-pipeline.js",
+    "example": "node examples/quick-start.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "dotenv": "^16.4.5"
+  }
+}
